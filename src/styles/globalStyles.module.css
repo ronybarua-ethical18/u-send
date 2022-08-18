@@ -1,0 +1,29 @@
+.header{
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #8D40FF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.navbar{
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 10px 1px rgba(148, 148, 148, 0.2);
+}
+.logo img{
+    margin-left: 1em;
+}
+.icons{
+    width: 12%;
+    max-width: 200px;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
